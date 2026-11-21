@@ -11,7 +11,7 @@ export default function ProgressBar({ timer }) {
   return () => {
       clearInterval(interval);
     };
-  } , []);
+  } , [progress]);
     return (
        <progress value={progress} max={timer}></progress>
     );
